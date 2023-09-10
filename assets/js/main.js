@@ -258,12 +258,14 @@ function toggleView(self, id){
   const toggleDiv = document.getElementById(id);
   console.log(selfEle.classList);
   if(toggleDiv){
-    if (toggleDiv.style.display === "none") {
-      toggleDiv.style.display = "block";
-      selfEle.classList.add("active");
-    } else {
-      toggleDiv.style.display = "none";
-      selfEle.classList.remove("active");
-    }
+    // if (toggleDiv.style.display === "none") {
+    //   toggleDiv.style.display = "block";
+    //   selfEle.classList.add("active");
+    // } else {
+    //   toggleDiv.style.display = "none";
+    //   selfEle.classList.remove("active");
+    // }
+    toggleDiv.style.display = "block";
+    selfEle.classList.add("active");
   }
 }
