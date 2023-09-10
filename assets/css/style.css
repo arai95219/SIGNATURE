@@ -1579,10 +1579,11 @@ section {
   margin-bottom: 40px !important;
 }
 
-/* div.sector-bg-automotive {
+div.sector-bg-automotive {
   background-image: url('../img/sector-automotive.jpg') !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
+  background-size: 100% 100% !important;
 }
 
 div.sector-bg-automotive::before {
@@ -1591,5 +1592,9 @@ div.sector-bg-automotive::before {
 }
 
 .sector-overlay {
-  background-color:transparent !important;
-} */
+  background-color:rgba(0, 0, 0, 0.5) !important;
+}
+
+.title a {
+  color: #fff !important;
+}
