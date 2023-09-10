@@ -254,8 +254,9 @@
 
 function toggleView(self, id){
 
-  const selfEle = document.getElementById(self)
+  const selfEle = document.getElementById(self);
   const toggleDiv = document.getElementById(id);
+  console.log(selfEle.classList);
   if(toggleDiv){
     if (toggleDiv.style.display === "none") {
       toggleDiv.style.display = "block";
