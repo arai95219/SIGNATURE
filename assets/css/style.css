@@ -91,7 +91,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: rgba(55, 75, 204, 0.9);
 }
 
 #header .logo h1 {
@@ -345,7 +345,7 @@ h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgb(42, 44, 57) 0%, rgb(51, 54, 74) 100%);
+  background: linear-gradient(0deg, rgb(93, 238, 93) 0%, rgb(51, 54, 74) 100%);
   padding: 0;
 }
 
@@ -371,7 +371,7 @@ h6 {
   width: 80%;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: #ffffff;
 }
 
 #hero .carousel-control-prev,
@@ -1519,7 +1519,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #14151c;
+  background: #7582e7;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1575,3 +1575,21 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+.margin-bottom {
+  margin-bottom: 40px !important;
+}
+
+/* div.sector-bg-automotive {
+  background-image: url('../img/sector-automotive.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+div.sector-bg-automotive::before {
+  background-size: cover !important;
+  opacity: 0.5 !important;
+}
+
+.sector-overlay {
+  background-color:transparent !important;
+} */
